@@ -27,10 +27,11 @@ reader.question("Please enter a password to validate: ", function(input)
     else{
         console.log("Password too short, must be at least 10 characters long");
         }
+        
+reader.close();
 }
 
 )
-
 
 
 
