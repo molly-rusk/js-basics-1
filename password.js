@@ -29,8 +29,6 @@ reader.question("Please enter a password to validate: ", function(input)
         }
 }
 
-
-
 )
 
 
