@@ -5,13 +5,21 @@ const reader = readline.createInterface({
   output: process.stdout,
 });
 
+console.log("\n" +
+"| |   (_) \n" +
+"| |_ \n" +
+"| '_ \ | | \n" +
+"| | | | | \n" +
+"|_| |_|_| "
+
+);
+
+console.log("\n");
 
 console.log("Welcome to the password validator tool!");
 
-reader.question("Please enter a password to validate:", function(input)
+reader.question("Please enter a password to validate: ", function(input)
 {
-   // tokens = input.split(' ');
-	
 	
     if(input.length >= 10){
         console.log("Success!");
@@ -25,12 +33,8 @@ reader.question("Please enter a password to validate:", function(input)
 
 )
 
-console.log("\n" + "\n");
-console.log("\n" +
-"| |   (_) \n" +
-"| |_ \n" +
-"| '_ \ | | \n" +
-"| | | | | \n" +
-"|_| |_|_| "
 
-);
+
+
+
+
