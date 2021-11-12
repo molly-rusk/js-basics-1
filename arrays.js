@@ -61,8 +61,9 @@ function bigOrSmall(arr){
     else if(arr[i] <= 100){
       answers.push('small');
     }
+    console.log(answers);
   }
-  console.log(answers);
+ 
 }
 
 
